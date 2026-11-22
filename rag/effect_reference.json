@@ -1,0 +1,129 @@
+{
+  "pedalboard_version": "0.9.26",
+  "effects": {
+    "Gain": {
+      "params": {
+        "gain_db": 1.0
+      },
+      "doc": "A gain plugin that increases or decreases the volume of a signal by amplifying or attenuating it by the provided value (in decibels). No distortion or other effects are applied.\n\nThink of this as a volume control."
+    },
+    "Compressor": {
+      "params": {
+        "attack_ms": 1.0,
+        "ratio": 1.0,
+        "release_ms": 100.0,
+        "threshold_db": 0.0
+      },
+      "doc": "A dynamic range compressor, used to reduce the volume of loud sounds and \"compress\" the loudness of the signal.\n\nFor a lossy compression algorithm that introduces noise or artifacts, see ``pedalboard.MP3Compressor`` or ``pedalboard.GSMCompressor``."
+    },
+    "Limiter": {
+      "params": {
+        "release_ms": 100.0,
+        "threshold_db": -10.0
+      },
+      "doc": "A loudness-maximizing limiter.\n\nThis plugin wraps JUCE's ``dsp::Limiter``, which applies two stages of compression followed by automatic makeup gain and a hard clip at 0 dBFS. It is designed to increase perceived loudness, not to enforce a specific peak ceiling.\n\n.. note::\n\n   ``threshold_db`` controls when compression *engages*, not the output    ceiling.  The output is always hard-clipped at 0 dBFS.  Makeup gain    is applied automatically and cannot be disabled \u2014 signals below the    threshold will be boosted.\n\n   For a limiter that enforces a configurable ceiling without makeup gain,    see :class:`BrickwallLimiter`."
+    },
+    "NoiseGate": {
+      "params": {
+        "attack_ms": 1.0,
+        "ratio": 10.0,
+        "release_ms": 100.0,
+        "threshold_db": -100.0
+      },
+      "doc": "A simple noise gate with standard threshold, ratio, attack time and release time controls. Can be used as an expander if the ratio is low."
+    },
+    "HighpassFilter": {
+      "params": {
+        "cutoff_frequency_hz": 50.0
+      },
+      "doc": "Apply a first-order high-pass filter with a roll-off of 6dB/octave. The cutoff frequency will be attenuated by -3dB (i.e.: :math:`\\\\frac{1}{\\\\sqrt{2}}` as loud, expressed as a gain factor) and lower frequencies will be attenuated by a further 6dB per octave.)"
+    },
+    "LowpassFilter": {
+      "params": {
+        "cutoff_frequency_hz": 50.0
+      },
+      "doc": "Apply a first-order low-pass filter with a roll-off of 6dB/octave. The cutoff frequency will be attenuated by -3dB (i.e.: 0.707x as loud)."
+    },
+    "LowShelfFilter": {
+      "params": {
+        "cutoff_frequency_hz": 440.0,
+        "gain_db": 0.0,
+        "q": 0.7071067690849304
+      },
+      "doc": "A low shelf filter with variable Q and gain, as would be used in an equalizer. Frequencies below the cutoff frequency will be boosted (or cut) by the provided gain value."
+    },
+    "HighShelfFilter": {
+      "params": {
+        "cutoff_frequency_hz": 440.0,
+        "gain_db": 0.0,
+        "q": 0.7071067690849304
+      },
+      "doc": "A high shelf filter plugin with variable Q and gain, as would be used in an equalizer. Frequencies above the cutoff frequency will be boosted (or cut) by the provided gain (in decibels)."
+    },
+    "PeakFilter": {
+      "params": {
+        "cutoff_frequency_hz": 440.0,
+        "gain_db": 0.0,
+        "q": 0.7071067690849304
+      },
+      "doc": "A peak (or notch) filter with variable Q and gain, as would be used in an equalizer. Frequencies around the cutoff frequency will be boosted (or cut) by the provided gain value."
+    },
+    "Reverb": {
+      "params": {
+        "damping": 0.5,
+        "dry_level": 0.4000000059604645,
+        "freeze_mode": 0.0,
+        "room_size": 0.5,
+        "wet_level": 0.33000001311302185,
+        "width": 1.0
+      },
+      "doc": "A simple reverb effect. Uses a simple stereo reverb algorithm, based on the technique and tunings used in `FreeVerb <https://ccrma.stanford.edu/~jos/pasp/Freeverb.html>_`."
+    },
+    "Delay": {
+      "params": {
+        "delay_seconds": 0.5,
+        "feedback": 0.0,
+        "mix": 0.5
+      },
+      "doc": "A digital delay plugin with controllable delay time, feedback percentage, and dry/wet mix."
+    },
+    "Chorus": {
+      "params": {
+        "centre_delay_ms": 7.0,
+        "depth": 0.25,
+        "feedback": 0.0,
+        "mix": 0.5,
+        "rate_hz": 1.0
+      },
+      "doc": "A basic chorus effect.\n\nThis audio effect can be controlled via the speed and depth of the LFO controlling the frequency response, a mix control, a feedback control, and the centre delay of the modulation. \n\nNote: To get classic chorus sounds try to use a centre delay time around 7-8 ms with a low feedback volume and a low depth. This effect can also be used as a flanger with a lower centre delay time and a lot of feedback, and as a vibrato effect if the mix value is 1."
+    },
+    "Phaser": {
+      "params": {
+        "centre_frequency_hz": 1300.0,
+        "depth": 0.5,
+        "feedback": 0.0,
+        "mix": 0.5,
+        "rate_hz": 1.0
+      },
+      "doc": "A 6 stage phaser that modulates first order all-pass filters to create sweeping notches in the magnitude frequency response. This audio effect can be controlled with standard phaser parameters: the speed and depth of the LFO controlling the frequency response, a mix control, a feedback control, and the centre frequency of the modulation."
+    },
+    "Distortion": {
+      "params": {
+        "drive_db": 25.0
+      },
+      "doc": "A distortion effect, which applies a non-linear (``tanh``, or hyperbolic tangent) waveshaping function to apply harmonically pleasing distortion to a signal.\n\nThis plugin produces a signal that is roughly equivalent to running: ``def distortion(x): return tanh(x * db_to_gain(drive_db))``"
+    },
+    "Clipping": {
+      "params": {
+        "threshold_db": -6.0
+      },
+      "doc": "A distortion plugin that adds hard distortion to the signal by clipping the signal at the provided threshold (in decibels)."
+    },
+    "Bitcrush": {
+      "params": {
+        "bit_depth": 8.0
+      },
+      "doc": "A plugin that reduces the signal to a given bit depth, giving the audio a lo-fi, digitized sound. Floating-point bit depths are supported.\n\nBitcrushing changes the amount of \"vertical\" resolution used for an audio signal (i.e.: how many unique values could be used to represent each sample). For an effect that changes the \"horizontal\" resolution (i.e.: how many samples are available per second), see :class:`pedalboard.Resample`."
+    }
+  }
+}

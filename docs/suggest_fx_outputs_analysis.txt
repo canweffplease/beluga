@@ -1,0 +1,64 @@
+python3 rag/suggest_fx.py "warm and spacious vocals"
+ 
+  warm and spacious vocals
+  LowShelfFilter
+      cutoff_frequency_hz    200
+      gain_db                6
+      q                      0.7071
+  Reverb
+      room_size              0.7
+      damping                0.4
+      wet_level              0.3
+      dry_level              0.7
+      width                  0.5
+  Compressor
+      threshold_db           -10
+      ratio                  4
+      attack_ms              5
+      release_ms             100
+  why: This chain enhances warmth and spaciousness in the vocals while controlling dynamics.
+
+{"effects": [{"type": "LowShelfFilter", "params": {"cutoff_frequency_hz": 200.0, "gain_db": 6.0, "q": 0.7071}}, {"type": "Reverb", "params": {"room_size": 0.7, "damping": 0.4, "wet_level": 0.3, "dry_level": 0.7, "width": 0.5}}, {"type": "Compressor", "params": {"threshold_db": -10.0, "ratio": 4.0, "attack_ms": 5.0, "release_ms": 100.0}}]}
+
+analysis: This is pretty standard warm vocal eq. Mild reverb mix makes sense here. Compression like this is seen on a lot of treble heavy instruments
+
+python3 rag/suggest_fx.py "muddy vocals"
+
+  muddy vocals
+  LowShelfFilter
+      cutoff_frequency_hz    200
+      gain_db                6
+      q                      0.7071
+  HighShelfFilter
+      cutoff_frequency_hz    6000
+      gain_db                -6
+      q                      0.7071
+  Reverb
+      room_size              0.7
+      damping                0.6
+      wet_level              0.7
+      dry_level              0.3
+      width                  0.5
+  why: This chain boosts the low frequencies for warmth, cuts the highs to reduce clarity, and adds reverb for a muddy effect.
+
+{"effects": [{"type": "LowShelfFilter", "params": {"cutoff_frequency_hz": 200.0, "gain_db": 6.0, "q": 0.7071}}, {"type": "HighShelfFilter", "params": {"cutoff_frequency_hz": 6000.0, "gain_db": -6.0, "q": 0.7071}}, {"type": "Reverb", "params": {"room_size": 0.7, "damping": 0.6, "wet_level": 0.3, "dry_level": 0.7, "width": 0.5}}]}
+
+analysis: cutting highs makes vocals muddy. making reverb wet signal more in the mix also does this.
+
+python3 rag/suggest_fx.py "clean vocals with no reverb"
+
+  clean vocals with no reverb
+  Compressor
+      threshold_db           -10
+      ratio                  4
+      attack_ms              5
+      release_ms             100
+  HighShelfFilter
+      cutoff_frequency_hz    6000
+      gain_db                6
+      q                      0.7071
+  why: The compressor evens out the vocal dynamics while the high shelf filter adds brightness to the clean vocals.
+
+{"effects": [{"type": "Compressor", "params": {"threshold_db": -10.0, "ratio": 4.0, "attack_ms": 5.0, "release_ms": 100.0}}, {"type": "HighShelfFilter", "params": {"cutoff_frequency_hz": 6000.0, "gain_db": 6.0, "q": 0.7071}}]}
+
+analysis: handles explicit calls for no effects. 

@@ -1,0 +1,9 @@
+mode                  : retrieval
+prompts / runs        : 30 / 3
+calls                 : 90
+valid json + chain    : 90 (100%)
+repairs per valid call: 0.08
+distinct chains       : 71 of 90 valid
+eq direction, regions : 59 of 114
+eq direction, prompts : 8 of 33 (every expected region matches)
+chains containing     : Compressor 87%, HighShelfFilter 52%, LowShelfFilter 50%, PeakFilter 46%, Chorus 33%, Distortion 28%, LowpassFilter 20%, HighpassFilter 16%, Reverb 13%, Delay 2%

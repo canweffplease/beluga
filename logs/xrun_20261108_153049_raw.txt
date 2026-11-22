@@ -1,0 +1,348 @@
+===== align  buffer 64  bpm 120  rep 1 =====
+Recording 2 tracks to /tmp/beluga_xrun_72j5qkpy/align_64_120_1  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960192 (20.00 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960192
+float writes failed : 0
+
+-+- track[1] -+-
+written frames      : 960192
+float writes failed : 0
+
+
+===== latency  buffer 64  bpm 120  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_64_120_1  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960128 (20.00 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960128
+float writes failed : 0
+
+
+===== latency  buffer 64  bpm 120  rep 2 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_64_120_2  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960192 (20.00 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960192
+float writes failed : 0
+
+
+===== latency  buffer 64  bpm 120  rep 3 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_64_120_3  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960256 (20.01 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960256
+float writes failed : 0
+
+
+===== latency  buffer 64  bpm 120  rep 4 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_64_120_4  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960128 (20.00 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960128
+float writes failed : 0
+
+
+===== latency  buffer 64  bpm 120  rep 5 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_64_120_5  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 961152 (20.02 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 961152
+float writes failed : 0
+
+
+===== grid  buffer 64  bpm 100  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/grid_64_100_1  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 1440064 (30.00 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 100.0 bpm
+
+-+- track[0] -+-
+written frames      : 1440064
+float writes failed : 0
+
+
+===== grid  buffer 64  bpm 130  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/grid_64_130_1  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 1441216 (30.03 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 130.0 bpm
+
+-+- track[0] -+-
+written frames      : 1441216
+float writes failed : 0
+
+
+===== align  buffer 256  bpm 120  rep 1 =====
+Recording 2 tracks to /tmp/beluga_xrun_72j5qkpy/align_256_120_1  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960768 (20.02 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960768
+float writes failed : 0
+
+-+- track[1] -+-
+written frames      : 960768
+float writes failed : 0
+
+
+===== latency  buffer 256  bpm 120  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_256_120_1  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960000 (20.00 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960000
+float writes failed : 0
+
+
+===== latency  buffer 256  bpm 120  rep 2 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_256_120_2  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 961024 (20.02 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 961024
+float writes failed : 0
+
+
+===== latency  buffer 256  bpm 120  rep 3 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_256_120_3  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 961024 (20.02 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 961024
+float writes failed : 0
+
+
+===== latency  buffer 256  bpm 120  rep 4 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_256_120_4  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960000 (20.00 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960000
+float writes failed : 0
+
+
+===== latency  buffer 256  bpm 120  rep 5 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_256_120_5  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960512 (20.01 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960512
+float writes failed : 0
+
+
+===== grid  buffer 256  bpm 100  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/grid_256_100_1  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 1440512 (30.01 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 100.0 bpm
+
+-+- track[0] -+-
+written frames      : 1440512
+float writes failed : 0
+
+
+===== grid  buffer 256  bpm 130  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/grid_256_130_1  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 1441024 (30.02 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 130.0 bpm
+
+-+- track[0] -+-
+written frames      : 1441024
+float writes failed : 0
+
+
+===== align  buffer 1024  bpm 120  rep 1 =====
+Recording 2 tracks to /tmp/beluga_xrun_72j5qkpy/align_1024_120_1  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960512 (20.01 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960512
+float writes failed : 0
+
+-+- track[1] -+-
+written frames      : 960512
+float writes failed : 0
+
+
+===== latency  buffer 1024  bpm 120  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_1024_120_1  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960512 (20.01 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960512
+float writes failed : 0
+
+
+===== latency  buffer 1024  bpm 120  rep 2 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_1024_120_2  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960512 (20.01 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960512
+float writes failed : 0
+
+
+===== latency  buffer 1024  bpm 120  rep 3 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_1024_120_3  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960512 (20.01 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960512
+float writes failed : 0
+
+
+===== latency  buffer 1024  bpm 120  rep 4 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_1024_120_4  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 961536 (20.03 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 961536
+float writes failed : 0
+
+
+===== latency  buffer 1024  bpm 120  rep 5 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/latency_1024_120_5  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 960512 (20.01 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 120.0 bpm
+
+-+- track[0] -+-
+written frames      : 960512
+float writes failed : 0
+
+
+===== grid  buffer 1024  bpm 100  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/grid_1024_100_1  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 1441792 (30.04 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 100.0 bpm
+
+-+- track[0] -+-
+written frames      : 1441792
+float writes failed : 0
+
+
+===== grid  buffer 1024  bpm 130  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_72j5qkpy/grid_1024_130_1  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+-+- summary -+-
+captured frames     : 1441792 (30.04 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+metronome on at 130.0 bpm
+
+-+- track[0] -+-
+written frames      : 1441792
+float writes failed : 0
+
+

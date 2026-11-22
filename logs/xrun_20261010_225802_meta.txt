@@ -1,0 +1,45 @@
+date           : 2026-10-10T22:58:02
+kernel         : 7.0.0-38-generic
+os             : Linux-7.0.0-38-generic-x86_64-with-glibc2.43
+cpu            : x86_64
+governor       : powersave
+pipewire       : pw-cli | Compiled with libpipewire 1.6.2 | Linked with libpipewire 1.6.2
+git commit     : f6cf5d1c1bb86a9fd0b33f222639e852c31a19de
+input ports    : Studio 68c Pro:capture_AUX0 .. (track k = AUX k-1)
+output ports   : Studio 68c Pro:playback_AUX0 Studio 68c Pro:playback_AUX1
+seconds / reps : 30.0 / 3
+buffers        : [64, 256, 1024]
+track counts   : [1, 2]
+ring seconds   : 2
+
+--- jack_lsp ---
+Studio 68c Pro:capture_AUX0
+Studio 68c Pro:capture_AUX1
+Studio 68c Pro:capture_AUX2
+Studio 68c Pro:capture_AUX3
+Studio 68c Pro:capture_AUX4
+Studio 68c Pro:capture_AUX5
+speech-dispatcher-dummy:output_FL
+speech-dispatcher-dummy:output_FR
+Studio 68c Pro:playback_AUX0
+Studio 68c Pro:playback_AUX1
+Studio 68c Pro:playback_AUX2
+Studio 68c Pro:playback_AUX3
+Studio 68c Pro:playback_AUX4
+Studio 68c Pro:playback_AUX5
+Studio 68c Pro:monitor_AUX0
+Studio 68c Pro:monitor_AUX1
+Studio 68c Pro:monitor_AUX2
+Studio 68c Pro:monitor_AUX3
+Studio 68c Pro:monitor_AUX4
+Studio 68c Pro:monitor_AUX5
+AD104 High Definition Audio Controller Digital Stereo (HDMI):playback_FL
+AD104 High Definition Audio Controller Digital Stereo (HDMI):playback_FR
+AD104 High Definition Audio Controller Digital Stereo (HDMI):monitor_FL
+AD104 High Definition Audio Controller Digital Stereo (HDMI):monitor_FR
+Midi-Bridge:Midi Through: Port-0 (capture)
+Midi-Bridge:Studio 68c: MIDI 1 (capture)
+BLE MIDI 1:out
+Midi-Bridge:Midi Through: Port-0 (playback)
+Midi-Bridge:Studio 68c: MIDI 1 (playback)
+BLE MIDI 1:in

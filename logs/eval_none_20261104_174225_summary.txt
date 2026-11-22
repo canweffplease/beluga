@@ -1,0 +1,8 @@
+mode                  : none
+prompts / runs        : 30 / 3
+calls                 : 90
+valid json + chain    : 90 (100%)
+repairs per valid call: 0.02
+distinct chains       : 66 of 90 valid
+eq direction, regions : 40 of 114
+eq direction, prompts : 0 of 33 (every expected region matches)

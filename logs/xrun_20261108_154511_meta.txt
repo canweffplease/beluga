@@ -1,0 +1,35 @@
+date           : 2026-11-08T15:45:11
+kernel         : 7.0.0-42-generic
+os             : Linux-7.0.0-42-generic-x86_64-with-glibc2.43
+cpu            : x86_64
+governor       : powersave
+pipewire       : pw-cli | Compiled with libpipewire 1.6.2 | Linked with libpipewire 1.6.2
+git commit     : 8074c49da607dd4871e312aaea6ad816f904f14a
+input ports    : Studio 68c Pro:capture_AUX0 .. (track k = AUX k-1)
+output ports   : Studio 68c Pro:playback_AUX0 Studio 68c Pro:playback_AUX1
+seconds / reps : 30 / 1
+buffers        : [256]
+track counts   : [1, 2]
+ring seconds   : 2
+metronome bpm  : 0 (0 = off, xrun test only)
+tests          : drift
+loop           : software  out Studio 68c Pro:playback_AUX0  in Studio 68c Pro:capture_AUX0 Studio 68c Pro:capture_AUX1
+stress         : off
+stress-ng      : None
+latency reps   : 5
+sync seconds   : 20 (grid 30, drift 600)
+
+--- jack_lsp ---
+CORSAIR VOID WIRELESS v2 Gaming Receiver Mono:capture_MONO
+CORSAIR VOID WIRELESS v2 Gaming Receiver Analog Stereo:playback_FL
+CORSAIR VOID WIRELESS v2 Gaming Receiver Analog Stereo:playback_FR
+CORSAIR VOID WIRELESS v2 Gaming Receiver Analog Stereo:monitor_FL
+CORSAIR VOID WIRELESS v2 Gaming Receiver Analog Stereo:monitor_FR
+AD104 High Definition Audio Controller Digital Stereo (HDMI):playback_FL
+AD104 High Definition Audio Controller Digital Stereo (HDMI):playback_FR
+AD104 High Definition Audio Controller Digital Stereo (HDMI):monitor_FL
+AD104 High Definition Audio Controller Digital Stereo (HDMI):monitor_FR
+Midi-Bridge:Midi Through: Port-0 (capture)
+BLE MIDI 1:out
+Midi-Bridge:Midi Through: Port-0 (playback)
+BLE MIDI 1:in

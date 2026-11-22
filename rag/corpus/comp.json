@@ -1,0 +1,505 @@
+{
+  "effect": "comp",
+  "description": "settings that other raters agreed matched each descriptor. summary = median per parameter, relative = where that median sits among all kept words.",
+  "params": [
+    "threshold_db",
+    "ratio",
+    "attack_ms",
+    "release_ms",
+    "knee_db"
+  ],
+  "entries": [
+    {
+      "word": "louder",
+      "n_rows": 54,
+      "summary": {
+        "threshold_db": -40.4121,
+        "ratio": 21.7465,
+        "attack_ms": 7.6572,
+        "release_ms": 19.1,
+        "knee_db": 0.1463
+      },
+      "spread_iqr": {
+        "threshold_db": 33.9741,
+        "ratio": 30.8626,
+        "attack_ms": 14.4881,
+        "release_ms": 25.875,
+        "knee_db": 0.5548
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 96,
+          "level": "very high"
+        },
+        "ratio": {
+          "percentile": 46,
+          "level": "about average"
+        },
+        "attack_ms": {
+          "percentile": 38,
+          "level": "low"
+        },
+        "release_ms": {
+          "percentile": 38,
+          "level": "low"
+        },
+        "knee_db": {
+          "percentile": 12,
+          "level": "very low"
+        }
+      }
+    },
+    {
+      "word": "warm",
+      "n_rows": 38,
+      "summary": {
+        "threshold_db": -58.5515,
+        "ratio": 23.9547,
+        "attack_ms": 5.4341,
+        "release_ms": 18.7,
+        "knee_db": 0.4908
+      },
+      "spread_iqr": {
+        "threshold_db": 56.684,
+        "ratio": 25.5356,
+        "attack_ms": 13.2892,
+        "release_ms": 31.575,
+        "knee_db": 0.7271
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 71,
+          "level": "high"
+        },
+        "ratio": {
+          "percentile": 54,
+          "level": "about average"
+        },
+        "attack_ms": {
+          "percentile": 4,
+          "level": "very low"
+        },
+        "release_ms": {
+          "percentile": 29,
+          "level": "low"
+        },
+        "knee_db": {
+          "percentile": 54,
+          "level": "about average"
+        }
+      }
+    },
+    {
+      "word": "loud",
+      "n_rows": 33,
+      "summary": {
+        "threshold_db": -60.9942,
+        "ratio": 24.724,
+        "attack_ms": 5.9519,
+        "release_ms": 17.1,
+        "knee_db": 0.6103
+      },
+      "spread_iqr": {
+        "threshold_db": 51.7735,
+        "ratio": 30.5326,
+        "attack_ms": 13.7659,
+        "release_ms": 27.0,
+        "knee_db": 0.7406
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 54,
+          "level": "about average"
+        },
+        "ratio": {
+          "percentile": 71,
+          "level": "high"
+        },
+        "attack_ms": {
+          "percentile": 21,
+          "level": "low"
+        },
+        "release_ms": {
+          "percentile": 21,
+          "level": "low"
+        },
+        "knee_db": {
+          "percentile": 62,
+          "level": "high"
+        }
+      }
+    },
+    {
+      "word": "muffled",
+      "n_rows": 33,
+      "summary": {
+        "threshold_db": -92.779,
+        "ratio": 14.7637,
+        "attack_ms": 9.8637,
+        "release_ms": 40.4,
+        "knee_db": 0.664
+      },
+      "spread_iqr": {
+        "threshold_db": 18.7533,
+        "ratio": 28.7422,
+        "attack_ms": 12.3263,
+        "release_ms": 30.4,
+        "knee_db": 0.8241
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 12,
+          "level": "very low"
+        },
+        "ratio": {
+          "percentile": 25,
+          "level": "low"
+        },
+        "attack_ms": {
+          "percentile": 62,
+          "level": "high"
+        },
+        "release_ms": {
+          "percentile": 96,
+          "level": "very high"
+        },
+        "knee_db": {
+          "percentile": 71,
+          "level": "high"
+        }
+      }
+    },
+    {
+      "word": "clear",
+      "n_rows": 30,
+      "summary": {
+        "threshold_db": -40.7182,
+        "ratio": 27.4489,
+        "attack_ms": 6.4596,
+        "release_ms": 28.95,
+        "knee_db": 0.4629
+      },
+      "spread_iqr": {
+        "threshold_db": 22.591,
+        "ratio": 23.801,
+        "attack_ms": 14.5302,
+        "release_ms": 26.45,
+        "knee_db": 0.8237
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 88,
+          "level": "very high"
+        },
+        "ratio": {
+          "percentile": 88,
+          "level": "very high"
+        },
+        "attack_ms": {
+          "percentile": 29,
+          "level": "low"
+        },
+        "release_ms": {
+          "percentile": 71,
+          "level": "high"
+        },
+        "knee_db": {
+          "percentile": 46,
+          "level": "about average"
+        }
+      }
+    },
+    {
+      "word": "echo",
+      "n_rows": 23,
+      "summary": {
+        "threshold_db": -59.3415,
+        "ratio": 24.0792,
+        "attack_ms": 8.9708,
+        "release_ms": 5.4,
+        "knee_db": 0.3934
+      },
+      "spread_iqr": {
+        "threshold_db": 45.9873,
+        "ratio": 25.0397,
+        "attack_ms": 13.6045,
+        "release_ms": 17.35,
+        "knee_db": 0.7537
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 62,
+          "level": "high"
+        },
+        "ratio": {
+          "percentile": 62,
+          "level": "high"
+        },
+        "attack_ms": {
+          "percentile": 54,
+          "level": "about average"
+        },
+        "release_ms": {
+          "percentile": 4,
+          "level": "very low"
+        },
+        "knee_db": {
+          "percentile": 29,
+          "level": "low"
+        }
+      }
+    },
+    {
+      "word": "full",
+      "n_rows": 22,
+      "summary": {
+        "threshold_db": -50.2188,
+        "ratio": 37.0705,
+        "attack_ms": 5.5766,
+        "release_ms": 31.8,
+        "knee_db": 0.4312
+      },
+      "spread_iqr": {
+        "threshold_db": 39.9829,
+        "ratio": 14.973,
+        "attack_ms": 13.7817,
+        "release_ms": 33.475,
+        "knee_db": 0.7718
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 79,
+          "level": "high"
+        },
+        "ratio": {
+          "percentile": 96,
+          "level": "very high"
+        },
+        "attack_ms": {
+          "percentile": 12,
+          "level": "very low"
+        },
+        "release_ms": {
+          "percentile": 79,
+          "level": "high"
+        },
+        "knee_db": {
+          "percentile": 38,
+          "level": "low"
+        }
+      }
+    },
+    {
+      "word": "soft",
+      "n_rows": 20,
+      "summary": {
+        "threshold_db": -81.7239,
+        "ratio": 12.7133,
+        "attack_ms": 13.5479,
+        "release_ms": 32.2,
+        "knee_db": 0.8581
+      },
+      "spread_iqr": {
+        "threshold_db": 52.7673,
+        "ratio": 13.4939,
+        "attack_ms": 10.9468,
+        "release_ms": 28.525,
+        "knee_db": 0.496
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 21,
+          "level": "low"
+        },
+        "ratio": {
+          "percentile": 12,
+          "level": "very low"
+        },
+        "attack_ms": {
+          "percentile": 79,
+          "level": "high"
+        },
+        "release_ms": {
+          "percentile": 88,
+          "level": "very high"
+        },
+        "knee_db": {
+          "percentile": 96,
+          "level": "very high"
+        }
+      }
+    },
+    {
+      "word": "quiet",
+      "n_rows": 18,
+      "summary": {
+        "threshold_db": -77.7938,
+        "ratio": 14.7637,
+        "attack_ms": 14.8061,
+        "release_ms": 25.5,
+        "knee_db": 0.674
+      },
+      "spread_iqr": {
+        "threshold_db": 44.1921,
+        "ratio": 24.986,
+        "attack_ms": 9.455,
+        "release_ms": 35.775,
+        "knee_db": 0.8285
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 38,
+          "level": "low"
+        },
+        "ratio": {
+          "percentile": 25,
+          "level": "low"
+        },
+        "attack_ms": {
+          "percentile": 88,
+          "level": "very high"
+        },
+        "release_ms": {
+          "percentile": 62,
+          "level": "high"
+        },
+        "knee_db": {
+          "percentile": 79,
+          "level": "high"
+        }
+      }
+    },
+    {
+      "word": "spacious",
+      "n_rows": 16,
+      "summary": {
+        "threshold_db": -79.0464,
+        "ratio": 16.2272,
+        "attack_ms": 11.8649,
+        "release_ms": 24.1,
+        "knee_db": 0.723
+      },
+      "spread_iqr": {
+        "threshold_db": 29.8471,
+        "ratio": 33.1132,
+        "attack_ms": 14.1235,
+        "release_ms": 34.35,
+        "knee_db": 0.3698
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 29,
+          "level": "low"
+        },
+        "ratio": {
+          "percentile": 38,
+          "level": "low"
+        },
+        "attack_ms": {
+          "percentile": 71,
+          "level": "high"
+        },
+        "release_ms": {
+          "percentile": 54,
+          "level": "about average"
+        },
+        "knee_db": {
+          "percentile": 88,
+          "level": "very high"
+        }
+      }
+    },
+    {
+      "word": "sharp",
+      "n_rows": 15,
+      "summary": {
+        "threshold_db": -61.364,
+        "ratio": 10.3139,
+        "attack_ms": 8.4022,
+        "release_ms": 23.6,
+        "knee_db": 0.259
+      },
+      "spread_iqr": {
+        "threshold_db": 43.2385,
+        "ratio": 19.7174,
+        "attack_ms": 12.1546,
+        "release_ms": 21.75,
+        "knee_db": 0.8596
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 46,
+          "level": "about average"
+        },
+        "ratio": {
+          "percentile": 4,
+          "level": "very low"
+        },
+        "attack_ms": {
+          "percentile": 46,
+          "level": "about average"
+        },
+        "release_ms": {
+          "percentile": 46,
+          "level": "about average"
+        },
+        "knee_db": {
+          "percentile": 21,
+          "level": "low"
+        }
+      }
+    },
+    {
+      "word": "distorted",
+      "n_rows": 15,
+      "summary": {
+        "threshold_db": -95.4251,
+        "ratio": 25.8521,
+        "attack_ms": 17.6239,
+        "release_ms": 10.0,
+        "knee_db": 0.0145
+      },
+      "spread_iqr": {
+        "threshold_db": 8.4167,
+        "ratio": 24.247,
+        "attack_ms": 2.5222,
+        "release_ms": 19.15,
+        "knee_db": 0.089
+      },
+      "bands_median": null,
+      "relative": {
+        "threshold_db": {
+          "percentile": 4,
+          "level": "very low"
+        },
+        "ratio": {
+          "percentile": 79,
+          "level": "high"
+        },
+        "attack_ms": {
+          "percentile": 96,
+          "level": "very high"
+        },
+        "release_ms": {
+          "percentile": 12,
+          "level": "very low"
+        },
+        "knee_db": {
+          "percentile": 4,
+          "level": "very low"
+        }
+      }
+    }
+  ]
+}

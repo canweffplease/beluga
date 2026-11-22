@@ -1,0 +1,540 @@
+===== record  buffer 64  tracks 1  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_o8gfsrc7/take_64_1_1  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1441216 (30.03 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1441216
+float writes failed : 0
+
+
+===== play  buffer 64  tracks 1  rep 1 =====
+Playing 1 track(s)  (48000 Hz, buffer 64 frames, ring 2.0 s, 30.03 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 1
+track           :1
+file frames     : 1441216 (30.03 s)
+read frames     : 1441216
+played frames   : 1441216 (30.03 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 64  tracks 1  rep 2 =====
+Recording 1 tracks to /tmp/beluga_xrun_o8gfsrc7/take_64_1_2  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1440960 (30.02 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1440960
+float writes failed : 0
+
+
+===== play  buffer 64  tracks 1  rep 2 =====
+Playing 1 track(s)  (48000 Hz, buffer 64 frames, ring 2.0 s, 30.02 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 1
+track           :1
+file frames     : 1440960 (30.02 s)
+read frames     : 1440960
+played frames   : 1440960 (30.02 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 2  (JACK deadline misses)
+
+
+===== record  buffer 64  tracks 1  rep 3 =====
+Recording 1 tracks to /tmp/beluga_xrun_o8gfsrc7/take_64_1_3  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1442368 (30.05 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1442368
+float writes failed : 0
+
+
+===== play  buffer 64  tracks 1  rep 3 =====
+Playing 1 track(s)  (48000 Hz, buffer 64 frames, ring 2.0 s, 30.05 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 1
+track           :1
+file frames     : 1442368 (30.05 s)
+read frames     : 1442368
+played frames   : 1442368 (30.05 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 64  tracks 2  rep 1 =====
+Recording 2 tracks to /tmp/beluga_xrun_o8gfsrc7/take_64_2_1  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1441088 (30.02 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1441088
+float writes failed : 0
+
+--- track[1] ---
+written frames      : 1441088
+float writes failed : 0
+
+
+===== play  buffer 64  tracks 2  rep 1 =====
+Playing 2 track(s)  (48000 Hz, buffer 64 frames, ring 2.0 s, 30.02 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 2
+track           :1
+file frames     : 1441088 (30.02 s)
+read frames     : 1441088
+played frames   : 1441088 (30.02 s)
+track           :2
+file frames     : 1441088 (30.02 s)
+read frames     : 1441088
+played frames   : 1441088 (30.02 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 64  tracks 2  rep 2 =====
+Recording 2 tracks to /tmp/beluga_xrun_o8gfsrc7/take_64_2_2  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1441024 (30.02 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1441024
+float writes failed : 0
+
+--- track[1] ---
+written frames      : 1441024
+float writes failed : 0
+
+
+===== play  buffer 64  tracks 2  rep 2 =====
+Playing 2 track(s)  (48000 Hz, buffer 64 frames, ring 2.0 s, 30.02 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 2
+track           :1
+file frames     : 1441024 (30.02 s)
+read frames     : 1441024
+played frames   : 1441024 (30.02 s)
+track           :2
+file frames     : 1441024 (30.02 s)
+read frames     : 1441024
+played frames   : 1441024 (30.02 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 64  tracks 2  rep 3 =====
+Recording 2 tracks to /tmp/beluga_xrun_o8gfsrc7/take_64_2_3  (48000 Hz, buffer 64 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1440832 (30.02 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1440832
+float writes failed : 0
+
+--- track[1] ---
+written frames      : 1440832
+float writes failed : 0
+
+
+===== play  buffer 64  tracks 2  rep 3 =====
+Playing 2 track(s)  (48000 Hz, buffer 64 frames, ring 2.0 s, 30.02 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 2
+track           :1
+file frames     : 1440832 (30.02 s)
+read frames     : 1440832
+played frames   : 1440832 (30.02 s)
+track           :2
+file frames     : 1440832 (30.02 s)
+read frames     : 1440832
+played frames   : 1440832 (30.02 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 2  (JACK deadline misses)
+
+
+===== record  buffer 256  tracks 1  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_o8gfsrc7/take_256_1_1  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1441216 (30.03 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1441216
+float writes failed : 0
+
+
+===== play  buffer 256  tracks 1  rep 1 =====
+Playing 1 track(s)  (48000 Hz, buffer 256 frames, ring 2.0 s, 30.03 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 1
+track           :1
+file frames     : 1441216 (30.03 s)
+read frames     : 1441216
+played frames   : 1441216 (30.03 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 256  tracks 1  rep 2 =====
+Recording 1 tracks to /tmp/beluga_xrun_o8gfsrc7/take_256_1_2  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1441792 (30.04 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1441792
+float writes failed : 0
+
+
+===== play  buffer 256  tracks 1  rep 2 =====
+Playing 1 track(s)  (48000 Hz, buffer 256 frames, ring 2.0 s, 30.04 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 1
+track           :1
+file frames     : 1441792 (30.04 s)
+read frames     : 1441792
+played frames   : 1441792 (30.04 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 256  tracks 1  rep 3 =====
+Recording 1 tracks to /tmp/beluga_xrun_o8gfsrc7/take_256_1_3  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1441216 (30.03 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1441216
+float writes failed : 0
+
+
+===== play  buffer 256  tracks 1  rep 3 =====
+Playing 1 track(s)  (48000 Hz, buffer 256 frames, ring 2.0 s, 30.03 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 1
+track           :1
+file frames     : 1441216 (30.03 s)
+read frames     : 1441216
+played frames   : 1441216 (30.03 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 256  tracks 2  rep 1 =====
+Recording 2 tracks to /tmp/beluga_xrun_o8gfsrc7/take_256_2_1  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1440192 (30.00 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1440192
+float writes failed : 0
+
+--- track[1] ---
+written frames      : 1440192
+float writes failed : 0
+
+
+===== play  buffer 256  tracks 2  rep 1 =====
+Playing 2 track(s)  (48000 Hz, buffer 256 frames, ring 2.0 s, 30.00 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 2
+track           :1
+file frames     : 1440192 (30.00 s)
+read frames     : 1440192
+played frames   : 1440192 (30.00 s)
+track           :2
+file frames     : 1440192 (30.00 s)
+read frames     : 1440192
+played frames   : 1440192 (30.00 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 256  tracks 2  rep 2 =====
+Recording 2 tracks to /tmp/beluga_xrun_o8gfsrc7/take_256_2_2  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1442112 (30.04 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1442112
+float writes failed : 0
+
+--- track[1] ---
+written frames      : 1442112
+float writes failed : 0
+
+
+===== play  buffer 256  tracks 2  rep 2 =====
+Playing 2 track(s)  (48000 Hz, buffer 256 frames, ring 2.0 s, 30.04 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 2
+track           :1
+file frames     : 1442112 (30.04 s)
+read frames     : 1442112
+played frames   : 1442112 (30.04 s)
+track           :2
+file frames     : 1442112 (30.04 s)
+read frames     : 1442112
+played frames   : 1442112 (30.04 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 256  tracks 2  rep 3 =====
+Recording 2 tracks to /tmp/beluga_xrun_o8gfsrc7/take_256_2_3  (48000 Hz, buffer 256 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1441216 (30.03 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1441216
+float writes failed : 0
+
+--- track[1] ---
+written frames      : 1441216
+float writes failed : 0
+
+
+===== play  buffer 256  tracks 2  rep 3 =====
+Playing 2 track(s)  (48000 Hz, buffer 256 frames, ring 2.0 s, 30.03 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 2
+track           :1
+file frames     : 1441216 (30.03 s)
+read frames     : 1441216
+played frames   : 1441216 (30.03 s)
+track           :2
+file frames     : 1441216 (30.03 s)
+read frames     : 1441216
+played frames   : 1441216 (30.03 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 1024  tracks 1  rep 1 =====
+Recording 1 tracks to /tmp/beluga_xrun_o8gfsrc7/take_1024_1_1  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1440960 (30.02 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1440960
+float writes failed : 0
+
+
+===== play  buffer 1024  tracks 1  rep 1 =====
+Playing 1 track(s)  (48000 Hz, buffer 1024 frames, ring 2.0 s, 30.02 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 1
+track           :1
+file frames     : 1440960 (30.02 s)
+read frames     : 1440960
+played frames   : 1440960 (30.02 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 2  (JACK deadline misses)
+
+
+===== record  buffer 1024  tracks 1  rep 2 =====
+Recording 1 tracks to /tmp/beluga_xrun_o8gfsrc7/take_1024_1_2  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1441728 (30.04 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1441728
+float writes failed : 0
+
+
+===== play  buffer 1024  tracks 1  rep 2 =====
+Playing 1 track(s)  (48000 Hz, buffer 1024 frames, ring 2.0 s, 30.04 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 1
+track           :1
+file frames     : 1441728 (30.04 s)
+read frames     : 1441728
+played frames   : 1441728 (30.04 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 1024  tracks 1  rep 3 =====
+Recording 1 tracks to /tmp/beluga_xrun_o8gfsrc7/take_1024_1_3  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1441280 (30.03 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1441280
+float writes failed : 0
+
+
+===== play  buffer 1024  tracks 1  rep 3 =====
+Playing 1 track(s)  (48000 Hz, buffer 1024 frames, ring 2.0 s, 30.03 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 1
+track           :1
+file frames     : 1441280 (30.03 s)
+read frames     : 1441280
+played frames   : 1441280 (30.03 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 1  (JACK deadline misses)
+
+
+===== record  buffer 1024  tracks 2  rep 1 =====
+Recording 2 tracks to /tmp/beluga_xrun_o8gfsrc7/take_1024_2_1  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1442048 (30.04 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1442048
+float writes failed : 0
+
+--- track[1] ---
+written frames      : 1442048
+float writes failed : 0
+
+
+===== play  buffer 1024  tracks 2  rep 1 =====
+Playing 2 track(s)  (48000 Hz, buffer 1024 frames, ring 2.0 s, 30.04 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 2
+track           :1
+file frames     : 1442048 (30.04 s)
+read frames     : 1442048
+played frames   : 1442048 (30.04 s)
+track           :2
+file frames     : 1442048 (30.04 s)
+read frames     : 1442048
+played frames   : 1442048 (30.04 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 1024  tracks 2  rep 2 =====
+Recording 2 tracks to /tmp/beluga_xrun_o8gfsrc7/take_1024_2_2  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1441920 (30.04 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1441920
+float writes failed : 0
+
+--- track[1] ---
+written frames      : 1441920
+float writes failed : 0
+
+
+===== play  buffer 1024  tracks 2  rep 2 =====
+Playing 2 track(s)  (48000 Hz, buffer 1024 frames, ring 2.0 s, 30.04 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 2
+track           :1
+file frames     : 1441920 (30.04 s)
+read frames     : 1441920
+played frames   : 1441920 (30.04 s)
+track           :2
+file frames     : 1441920 (30.04 s)
+read frames     : 1441920
+played frames   : 1441920 (30.04 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+
+===== record  buffer 1024  tracks 2  rep 3 =====
+Recording 2 tracks to /tmp/beluga_xrun_o8gfsrc7/take_1024_2_3  (48000 Hz, buffer 1024 frames, ring 2.0 s). Ctrl-C to stop.
+
+--- summary ---
+captured frames     : 1442176 (30.05 s)
+dropped frames      : 0  (ring overruns)
+xruns               : 0  (JACK deadline misses)
+
+--- track[0] ---
+written frames      : 1442176
+float writes failed : 0
+
+--- track[1] ---
+written frames      : 1442176
+float writes failed : 0
+
+
+===== play  buffer 1024  tracks 2  rep 3 =====
+Playing 2 track(s)  (48000 Hz, buffer 1024 frames, ring 2.0 s, 30.05 s long). Ctrl-C to stop.
+
+--- summary ---
+tracks          : 2
+track           :1
+file frames     : 1442176 (30.05 s)
+read frames     : 1442176
+played frames   : 1442176 (30.05 s)
+track           :2
+file frames     : 1442176 (30.05 s)
+read frames     : 1442176
+played frames   : 1442176 (30.05 s)
+dropout frames  : 0  (silence inserted, ring ran dry)
+xruns           : 0  (JACK deadline misses)
+
+

@@ -1,0 +1,19 @@
+sync test summary   stress: off   loop: software
+
+criteria (frames): align = every click identical on both tracks, latency = spread of offsets within a run and
+                   between runs <= 1.0, grid = every gap within 1.0 of the period,
+                   drift = fitted drift over the run <= 1.0. No missed clicks in any of them.
+INVALID = dropped frames, no signal, program or port failure: measurements are kept, criteria not applied.
+
+align    buffer    64  bpm  120  PASS     offset mean 3.55, min 2.0, max 64.0  
+latency  buffer    64  bpm  120  FAIL     offset mean 3.55, min 3.55, max 3.55  across-run spread 0.00 frames over 5 of 5 runs
+grid     buffer    64  bpm  100  FAIL     offset mean 4.52, min 2.0, max 128.0  
+grid     buffer    64  bpm  130  FAIL     offset mean 3.42, min 2.0, max 64.0  
+align    buffer   256  bpm  120  PASS     offset mean 8.35, min 2.0, max 256.0  
+latency  buffer   256  bpm  120  FAIL     offset mean 8.35, min 8.35, max 8.35  across-run spread 0.00 frames over 5 of 5 runs
+grid     buffer   256  bpm  100  FAIL     offset mean 7.08, min 2.0, max 256.0  
+grid     buffer   256  bpm  130  FAIL     offset mean 6.37, min 2.0, max 256.0  
+align    buffer  1024  bpm  120  FAIL     offset mean 2.0, min 2.0, max 2.0  
+latency  buffer  1024  bpm  120  FAIL     offset mean 2.0, min 2.0, max 2.0  across-run spread 0.00 frames over 5 of 5 runs
+grid     buffer  1024  bpm  100  FAIL     offset mean 2.0, min 2.0, max 2.0  
+grid     buffer  1024  bpm  130  FAIL     offset mean 2.47, min 2.0, max 2.92  

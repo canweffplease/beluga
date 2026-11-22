@@ -1,0 +1,9 @@
+mode                  : random
+prompts / runs        : 30 / 100
+calls                 : 3000
+valid json + chain    : 3000 (100%)
+repairs per valid call: 0.00
+distinct chains       : 3000 of 3000 valid
+eq direction, regions : 892 of 3800
+eq direction, prompts : 21 of 1100 (every expected region matches)
+chains containing     : LowShelfFilter 35%, Delay 35%, HighpassFilter 35%, Compressor 35%, Distortion 35%, HighShelfFilter 35%, PeakFilter 35%, Reverb 34%, LowpassFilter 34%, Chorus 34%

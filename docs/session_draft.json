@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "session_id": "some sort of session id",
+  "name": "unique name",
+  "sample_rate": 48000,
+  "buffer_size": 256,
+  "tracks": [
+    {
+      "id": 1,
+      "name": "vocals",
+      "file": "track_1.wav",
+      "source_port": "Studio 68c Pro:capture_AUX0",
+      "gain": 1.0,
+      "mute": false,
+      "effects": [],
+      "length_frames": "numerical length"
+    },
+    {
+      "id": 2,
+      "name": "guitar",
+      "file": "track_2.wav",
+      "source_port": "Studio 68c Pro:capture_AUX1",
+      "gain": 0.8,
+      "mute": false,
+      "effects": [],
+      "length_frames": "numerical length"
+    }
+  ]
+}

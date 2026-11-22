@@ -1,0 +1,284 @@
+model,mode,prompt_tokens,completion_tokens,description
+gpt-4o-mini-2024-07-18,baseline,4374,167,warm vocals
+gpt-4o-mini-2024-07-18,baseline,4374,165,soft vocals
+gpt-4o-mini-2024-07-18,baseline,4374,116,harsh vocals
+gpt-4o-mini-2024-07-18,baseline,4374,164,calm vocals
+gpt-4o-mini-2024-07-18,baseline,4374,122,loud vocals
+gpt-4o-mini-2024-07-18,baseline,4374,169,warm vocals
+gpt-4o-mini-2024-07-18,baseline,4374,169,warm vocals
+gpt-4o-mini-2024-07-18,baseline,4374,134,warm vocals
+gpt-4o-mini-2024-07-18,baseline,4374,128,soft vocals
+gpt-4o-mini-2024-07-18,baseline,4374,121,soft vocals
+gpt-4o-mini-2024-07-18,baseline,4374,121,soft vocals
+gpt-4o-mini-2024-07-18,baseline,4374,113,harsh vocals
+gpt-4o-mini-2024-07-18,baseline,4374,156,harsh vocals
+gpt-4o-mini-2024-07-18,baseline,4374,113,harsh vocals
+gpt-4o-mini-2024-07-18,baseline,4374,121,calm vocals
+gpt-4o-mini-2024-07-18,baseline,4374,124,calm vocals
+gpt-4o-mini-2024-07-18,baseline,4374,168,calm vocals
+gpt-4o-mini-2024-07-18,baseline,4374,123,loud vocals
+gpt-4o-mini-2024-07-18,baseline,4374,124,loud vocals
+gpt-4o-mini-2024-07-18,baseline,4374,136,loud vocals
+gpt-4o-mini-2024-07-18,baseline,4374,121,bright vocals
+gpt-4o-mini-2024-07-18,baseline,4374,122,bright vocals
+gpt-4o-mini-2024-07-18,baseline,4374,124,bright vocals
+gpt-4o-mini-2024-07-18,baseline,4374,164,heavy vocals
+gpt-4o-mini-2024-07-18,baseline,4374,164,heavy vocals
+gpt-4o-mini-2024-07-18,baseline,4374,164,heavy vocals
+gpt-4o-mini-2024-07-18,baseline,4376,162,warm and spacious vocals
+gpt-4o-mini-2024-07-18,baseline,4376,165,warm and spacious vocals
+gpt-4o-mini-2024-07-18,baseline,4376,168,warm and spacious vocals
+gpt-4o-mini-2024-07-18,baseline,4376,137,awfully muddy vocals
+gpt-4o-mini-2024-07-18,baseline,4376,136,awfully muddy vocals
+gpt-4o-mini-2024-07-18,baseline,4376,143,awfully muddy vocals
+gpt-4o-mini-2024-07-18,baseline,4377,150,shoegaze style guitar
+gpt-4o-mini-2024-07-18,baseline,4377,149,shoegaze style guitar
+gpt-4o-mini-2024-07-18,baseline,4377,150,shoegaze style guitar
+gpt-4o-mini-2024-07-18,baseline,4376,153,lo-fi tape sound
+gpt-4o-mini-2024-07-18,baseline,4376,137,lo-fi tape sound
+gpt-4o-mini-2024-07-18,baseline,4376,153,lo-fi tape sound
+gpt-4o-mini-2024-07-18,baseline,4374,156,radio voice
+gpt-4o-mini-2024-07-18,baseline,4374,155,radio voice
+gpt-4o-mini-2024-07-18,baseline,4374,127,radio voice
+gpt-4o-mini-2024-07-18,baseline,4374,152,underwater vocals
+gpt-4o-mini-2024-07-18,baseline,4374,176,underwater vocals
+gpt-4o-mini-2024-07-18,baseline,4374,114,underwater vocals
+gpt-4o-mini-2024-07-18,baseline,4374,168,dreamy vocals
+gpt-4o-mini-2024-07-18,baseline,4374,167,dreamy vocals
+gpt-4o-mini-2024-07-18,baseline,4374,167,dreamy vocals
+gpt-4o-mini-2024-07-18,baseline,4375,136,punchy drums
+gpt-4o-mini-2024-07-18,baseline,4375,134,punchy drums
+gpt-4o-mini-2024-07-18,baseline,4375,137,punchy drums
+gpt-4o-mini-2024-07-18,baseline,4374,125,vintage telephone
+gpt-4o-mini-2024-07-18,baseline,4374,126,vintage telephone
+gpt-4o-mini-2024-07-18,baseline,4374,139,vintage telephone
+gpt-4o-mini-2024-07-18,baseline,4375,137,huge stadium vocals
+gpt-4o-mini-2024-07-18,baseline,4375,139,huge stadium vocals
+gpt-4o-mini-2024-07-18,baseline,4375,167,huge stadium vocals
+gpt-4o-mini-2024-07-18,baseline,4378,153,clean vocals with no reverb
+gpt-4o-mini-2024-07-18,baseline,4378,142,clean vocals with no reverb
+gpt-4o-mini-2024-07-18,baseline,4378,152,clean vocals with no reverb
+gpt-4o-mini-2024-07-18,baseline,4376,163,warm vocals without compression
+gpt-4o-mini-2024-07-18,baseline,4376,124,warm vocals without compression
+gpt-4o-mini-2024-07-18,baseline,4376,158,warm vocals without compression
+gpt-4o-mini-2024-07-18,baseline,4378,129,bright guitar with no reverb
+gpt-4o-mini-2024-07-18,baseline,4378,124,bright guitar with no reverb
+gpt-4o-mini-2024-07-18,baseline,4378,129,bright guitar with no reverb
+gpt-4o-mini-2024-07-18,baseline,4374,155,harsh vocals
+gpt-4o-mini-2024-07-18,baseline,4374,113,harsh vocals
+gpt-4o-mini-2024-07-18,baseline,4374,156,harsh vocals
+gpt-4o-mini-2024-07-18,baseline,4374,124,high vocals
+gpt-4o-mini-2024-07-18,baseline,4374,127,high vocals
+gpt-4o-mini-2024-07-18,baseline,4374,168,high vocals
+gpt-4o-mini-2024-07-18,baseline,4374,176,huge vocals
+gpt-4o-mini-2024-07-18,baseline,4374,176,huge vocals
+gpt-4o-mini-2024-07-18,baseline,4374,176,huge vocals
+gpt-4o-mini-2024-07-18,baseline,4374,164,weird vocals
+gpt-4o-mini-2024-07-18,baseline,4374,135,weird vocals
+gpt-4o-mini-2024-07-18,baseline,4374,153,weird vocals
+gpt-4o-mini-2024-07-18,baseline,4375,138,low-quality vocals
+gpt-4o-mini-2024-07-18,baseline,4375,158,low-quality vocals
+gpt-4o-mini-2024-07-18,baseline,4375,138,low-quality vocals
+gpt-4o-mini-2024-07-18,baseline,4374,142,moving vocals
+gpt-4o-mini-2024-07-18,baseline,4374,141,moving vocals
+gpt-4o-mini-2024-07-18,baseline,4374,174,moving vocals
+gpt-4o-mini-2024-07-18,baseline,4374,167,emotional vocals
+gpt-4o-mini-2024-07-18,baseline,4374,166,emotional vocals
+gpt-4o-mini-2024-07-18,baseline,4374,124,emotional vocals
+gpt-4o-mini-2024-07-18,baseline,4374,172,funeral vocals
+gpt-4o-mini-2024-07-18,baseline,4374,175,funeral vocals
+gpt-4o-mini-2024-07-18,baseline,4374,170,funeral vocals
+gpt-4o-mini-2024-07-18,baseline,4374,132,sharper vocals
+gpt-4o-mini-2024-07-18,baseline,4374,132,sharper vocals
+gpt-4o-mini-2024-07-18,baseline,4374,126,sharper vocals
+gpt-4o-mini-2024-07-18,baseline,4374,169,empty vocals
+gpt-4o-mini-2024-07-18,baseline,4374,166,empty vocals
+gpt-4o-mini-2024-07-18,baseline,4374,173,empty vocals
+gpt-4o-mini-2024-07-18,none,934,123,warm vocals
+gpt-4o-mini-2024-07-18,none,934,123,warm vocals
+gpt-4o-mini-2024-07-18,none,934,123,warm vocals
+gpt-4o-mini-2024-07-18,none,934,146,soft vocals
+gpt-4o-mini-2024-07-18,none,934,146,soft vocals
+gpt-4o-mini-2024-07-18,none,934,164,soft vocals
+gpt-4o-mini-2024-07-18,none,934,110,harsh vocals
+gpt-4o-mini-2024-07-18,none,934,116,harsh vocals
+gpt-4o-mini-2024-07-18,none,934,114,harsh vocals
+gpt-4o-mini-2024-07-18,none,934,170,calm vocals
+gpt-4o-mini-2024-07-18,none,934,126,calm vocals
+gpt-4o-mini-2024-07-18,none,934,168,calm vocals
+gpt-4o-mini-2024-07-18,none,934,123,loud vocals
+gpt-4o-mini-2024-07-18,none,934,123,loud vocals
+gpt-4o-mini-2024-07-18,none,934,123,loud vocals
+gpt-4o-mini-2024-07-18,none,934,109,bright vocals
+gpt-4o-mini-2024-07-18,none,934,109,bright vocals
+gpt-4o-mini-2024-07-18,none,934,108,bright vocals
+gpt-4o-mini-2024-07-18,none,934,134,heavy vocals
+gpt-4o-mini-2024-07-18,none,934,133,heavy vocals
+gpt-4o-mini-2024-07-18,none,934,133,heavy vocals
+gpt-4o-mini-2024-07-18,none,936,127,warm and spacious vocals
+gpt-4o-mini-2024-07-18,none,936,129,warm and spacious vocals
+gpt-4o-mini-2024-07-18,none,936,139,warm and spacious vocals
+gpt-4o-mini-2024-07-18,none,936,113,awfully muddy vocals
+gpt-4o-mini-2024-07-18,none,936,132,awfully muddy vocals
+gpt-4o-mini-2024-07-18,none,936,136,awfully muddy vocals
+gpt-4o-mini-2024-07-18,none,937,134,shoegaze style guitar
+gpt-4o-mini-2024-07-18,none,937,135,shoegaze style guitar
+gpt-4o-mini-2024-07-18,none,937,141,shoegaze style guitar
+gpt-4o-mini-2024-07-18,none,936,142,lo-fi tape sound
+gpt-4o-mini-2024-07-18,none,936,142,lo-fi tape sound
+gpt-4o-mini-2024-07-18,none,936,142,lo-fi tape sound
+gpt-4o-mini-2024-07-18,none,934,142,radio voice
+gpt-4o-mini-2024-07-18,none,934,141,radio voice
+gpt-4o-mini-2024-07-18,none,934,142,radio voice
+gpt-4o-mini-2024-07-18,none,934,104,underwater vocals
+gpt-4o-mini-2024-07-18,none,934,102,underwater vocals
+gpt-4o-mini-2024-07-18,none,934,104,underwater vocals
+gpt-4o-mini-2024-07-18,none,934,159,dreamy vocals
+gpt-4o-mini-2024-07-18,none,934,153,dreamy vocals
+gpt-4o-mini-2024-07-18,none,934,158,dreamy vocals
+gpt-4o-mini-2024-07-18,none,935,136,punchy drums
+gpt-4o-mini-2024-07-18,none,935,129,punchy drums
+gpt-4o-mini-2024-07-18,none,935,133,punchy drums
+gpt-4o-mini-2024-07-18,none,934,110,vintage telephone
+gpt-4o-mini-2024-07-18,none,934,116,vintage telephone
+gpt-4o-mini-2024-07-18,none,934,110,vintage telephone
+gpt-4o-mini-2024-07-18,none,935,168,huge stadium vocals
+gpt-4o-mini-2024-07-18,none,935,165,huge stadium vocals
+gpt-4o-mini-2024-07-18,none,935,165,huge stadium vocals
+gpt-4o-mini-2024-07-18,none,938,145,clean vocals with no reverb
+gpt-4o-mini-2024-07-18,none,938,144,clean vocals with no reverb
+gpt-4o-mini-2024-07-18,none,938,144,clean vocals with no reverb
+gpt-4o-mini-2024-07-18,none,936,94,warm vocals without compression
+gpt-4o-mini-2024-07-18,none,936,94,warm vocals without compression
+gpt-4o-mini-2024-07-18,none,936,92,warm vocals without compression
+gpt-4o-mini-2024-07-18,none,938,112,bright guitar with no reverb
+gpt-4o-mini-2024-07-18,none,938,109,bright guitar with no reverb
+gpt-4o-mini-2024-07-18,none,938,113,bright guitar with no reverb
+gpt-4o-mini-2024-07-18,none,934,104,harsh vocals
+gpt-4o-mini-2024-07-18,none,934,116,harsh vocals
+gpt-4o-mini-2024-07-18,none,934,110,harsh vocals
+gpt-4o-mini-2024-07-18,none,934,116,high vocals
+gpt-4o-mini-2024-07-18,none,934,119,high vocals
+gpt-4o-mini-2024-07-18,none,934,116,high vocals
+gpt-4o-mini-2024-07-18,none,934,171,huge vocals
+gpt-4o-mini-2024-07-18,none,934,164,huge vocals
+gpt-4o-mini-2024-07-18,none,934,166,huge vocals
+gpt-4o-mini-2024-07-18,none,934,114,weird vocals
+gpt-4o-mini-2024-07-18,none,934,110,weird vocals
+gpt-4o-mini-2024-07-18,none,934,136,weird vocals
+gpt-4o-mini-2024-07-18,none,935,103,low-quality vocals
+gpt-4o-mini-2024-07-18,none,935,103,low-quality vocals
+gpt-4o-mini-2024-07-18,none,935,103,low-quality vocals
+gpt-4o-mini-2024-07-18,none,934,147,moving vocals
+gpt-4o-mini-2024-07-18,none,934,146,moving vocals
+gpt-4o-mini-2024-07-18,none,934,134,moving vocals
+gpt-4o-mini-2024-07-18,none,934,175,emotional vocals
+gpt-4o-mini-2024-07-18,none,934,175,emotional vocals
+gpt-4o-mini-2024-07-18,none,934,175,emotional vocals
+gpt-4o-mini-2024-07-18,none,934,118,funeral vocals
+gpt-4o-mini-2024-07-18,none,934,119,funeral vocals
+gpt-4o-mini-2024-07-18,none,934,118,funeral vocals
+gpt-4o-mini-2024-07-18,none,934,123,sharper vocals
+gpt-4o-mini-2024-07-18,none,934,101,sharper vocals
+gpt-4o-mini-2024-07-18,none,934,100,sharper vocals
+gpt-4o-mini-2024-07-18,none,934,155,empty vocals
+gpt-4o-mini-2024-07-18,none,934,116,empty vocals
+gpt-4o-mini-2024-07-18,none,934,160,empty vocals
+gpt-4o-mini-2024-07-18,retrieval,1968,173,dreamy vocals
+gpt-4o-mini-2024-07-18,retrieval,1924,130,warm vocals
+gpt-4o-mini-2024-07-18,retrieval,1924,126,warm vocals
+gpt-4o-mini-2024-07-18,retrieval,1924,133,warm vocals
+gpt-4o-mini-2024-07-18,retrieval,1936,127,soft vocals
+gpt-4o-mini-2024-07-18,retrieval,1936,127,soft vocals
+gpt-4o-mini-2024-07-18,retrieval,1936,127,soft vocals
+gpt-4o-mini-2024-07-18,retrieval,1977,113,harsh vocals
+gpt-4o-mini-2024-07-18,retrieval,1977,114,harsh vocals
+gpt-4o-mini-2024-07-18,retrieval,1977,114,harsh vocals
+gpt-4o-mini-2024-07-18,retrieval,1873,166,calm vocals
+gpt-4o-mini-2024-07-18,retrieval,1873,166,calm vocals
+gpt-4o-mini-2024-07-18,retrieval,1873,166,calm vocals
+gpt-4o-mini-2024-07-18,retrieval,1895,125,loud vocals
+gpt-4o-mini-2024-07-18,retrieval,1895,129,loud vocals
+gpt-4o-mini-2024-07-18,retrieval,1895,123,loud vocals
+gpt-4o-mini-2024-07-18,retrieval,1961,121,bright vocals
+gpt-4o-mini-2024-07-18,retrieval,1961,121,bright vocals
+gpt-4o-mini-2024-07-18,retrieval,1961,121,bright vocals
+gpt-4o-mini-2024-07-18,retrieval,1930,139,heavy vocals
+gpt-4o-mini-2024-07-18,retrieval,1930,133,heavy vocals
+gpt-4o-mini-2024-07-18,retrieval,1930,170,heavy vocals
+gpt-4o-mini-2024-07-18,retrieval,2161,165,warm and spacious vocals
+gpt-4o-mini-2024-07-18,retrieval,2161,165,warm and spacious vocals
+gpt-4o-mini-2024-07-18,retrieval,2161,163,warm and spacious vocals
+gpt-4o-mini-2024-07-18,retrieval,2101,113,awfully muddy vocals
+gpt-4o-mini-2024-07-18,retrieval,2101,118,awfully muddy vocals
+gpt-4o-mini-2024-07-18,retrieval,2101,113,awfully muddy vocals
+gpt-4o-mini-2024-07-18,retrieval,2006,151,shoegaze style guitar
+gpt-4o-mini-2024-07-18,retrieval,2006,152,shoegaze style guitar
+gpt-4o-mini-2024-07-18,retrieval,2006,134,shoegaze style guitar
+gpt-4o-mini-2024-07-18,retrieval,1938,101,lo-fi tape sound
+gpt-4o-mini-2024-07-18,retrieval,1938,101,lo-fi tape sound
+gpt-4o-mini-2024-07-18,retrieval,1938,107,lo-fi tape sound
+gpt-4o-mini-2024-07-18,retrieval,1832,143,radio voice
+gpt-4o-mini-2024-07-18,retrieval,1832,146,radio voice
+gpt-4o-mini-2024-07-18,retrieval,1832,143,radio voice
+gpt-4o-mini-2024-07-18,retrieval,1937,150,underwater vocals
+gpt-4o-mini-2024-07-18,retrieval,1937,169,underwater vocals
+gpt-4o-mini-2024-07-18,retrieval,1937,152,underwater vocals
+gpt-4o-mini-2024-07-18,retrieval,1968,173,dreamy vocals
+gpt-4o-mini-2024-07-18,retrieval,1968,173,dreamy vocals
+gpt-4o-mini-2024-07-18,retrieval,1968,173,dreamy vocals
+gpt-4o-mini-2024-07-18,retrieval,2003,137,punchy drums
+gpt-4o-mini-2024-07-18,retrieval,2003,126,punchy drums
+gpt-4o-mini-2024-07-18,retrieval,2003,115,punchy drums
+gpt-4o-mini-2024-07-18,retrieval,2052,138,vintage telephone
+gpt-4o-mini-2024-07-18,retrieval,2052,137,vintage telephone
+gpt-4o-mini-2024-07-18,retrieval,2052,139,vintage telephone
+gpt-4o-mini-2024-07-18,retrieval,2037,171,huge stadium vocals
+gpt-4o-mini-2024-07-18,retrieval,2037,180,huge stadium vocals
+gpt-4o-mini-2024-07-18,retrieval,2037,182,huge stadium vocals
+gpt-4o-mini-2024-07-18,retrieval,2105,113,clean vocals with no reverb
+gpt-4o-mini-2024-07-18,retrieval,2105,111,clean vocals with no reverb
+gpt-4o-mini-2024-07-18,retrieval,2105,111,clean vocals with no reverb
+gpt-4o-mini-2024-07-18,retrieval,2223,145,warm vocals without compression
+gpt-4o-mini-2024-07-18,retrieval,2223,151,warm vocals without compression
+gpt-4o-mini-2024-07-18,retrieval,2223,132,warm vocals without compression
+gpt-4o-mini-2024-07-18,retrieval,2109,101,bright guitar with no reverb
+gpt-4o-mini-2024-07-18,retrieval,2109,112,bright guitar with no reverb
+gpt-4o-mini-2024-07-18,retrieval,2109,113,bright guitar with no reverb
+gpt-4o-mini-2024-07-18,retrieval,1977,114,harsh vocals
+gpt-4o-mini-2024-07-18,retrieval,1977,119,harsh vocals
+gpt-4o-mini-2024-07-18,retrieval,1977,115,harsh vocals
+gpt-4o-mini-2024-07-18,retrieval,1929,122,high vocals
+gpt-4o-mini-2024-07-18,retrieval,1929,123,high vocals
+gpt-4o-mini-2024-07-18,retrieval,1929,123,high vocals
+gpt-4o-mini-2024-07-18,retrieval,1999,176,huge vocals
+gpt-4o-mini-2024-07-18,retrieval,1999,187,huge vocals
+gpt-4o-mini-2024-07-18,retrieval,1999,174,huge vocals
+gpt-4o-mini-2024-07-18,retrieval,2096,129,weird vocals
+gpt-4o-mini-2024-07-18,retrieval,2096,128,weird vocals
+gpt-4o-mini-2024-07-18,retrieval,2096,111,weird vocals
+gpt-4o-mini-2024-07-18,retrieval,2035,126,low-quality vocals
+gpt-4o-mini-2024-07-18,retrieval,2035,108,low-quality vocals
+gpt-4o-mini-2024-07-18,retrieval,2035,127,low-quality vocals
+gpt-4o-mini-2024-07-18,retrieval,1993,154,moving vocals
+gpt-4o-mini-2024-07-18,retrieval,1993,134,moving vocals
+gpt-4o-mini-2024-07-18,retrieval,1993,138,moving vocals
+gpt-4o-mini-2024-07-18,retrieval,1837,184,emotional vocals
+gpt-4o-mini-2024-07-18,retrieval,1837,178,emotional vocals
+gpt-4o-mini-2024-07-18,retrieval,1837,176,emotional vocals
+gpt-4o-mini-2024-07-18,retrieval,1871,175,funeral vocals
+gpt-4o-mini-2024-07-18,retrieval,1871,174,funeral vocals
+gpt-4o-mini-2024-07-18,retrieval,1871,170,funeral vocals
+gpt-4o-mini-2024-07-18,retrieval,1937,153,sharper vocals
+gpt-4o-mini-2024-07-18,retrieval,1937,153,sharper vocals
+gpt-4o-mini-2024-07-18,retrieval,1937,153,sharper vocals
+gpt-4o-mini-2024-07-18,retrieval,1903,124,empty vocals
+gpt-4o-mini-2024-07-18,retrieval,1903,119,empty vocals
+gpt-4o-mini-2024-07-18,retrieval,1903,106,empty vocals
+gpt-4o-mini-2024-07-18,retrieval,1961,121,bright vocals
+gpt-4o-mini-2024-07-18,baseline,4374,167,warm vocals
+gpt-4o-mini-2024-07-18,baseline,4378,86,deftones style distortion reverb
+gpt-4o-mini-2024-07-18,retrieval,1987,180,warm and spacious
+gpt-4o-mini-2024-07-18,baseline,4381,128,bright with a ton of reverb and delay
+gpt-4o-mini-2024-07-18,baseline,4378,82,super distorted and reverberated
+gpt-4o-mini-2024-07-18,baseline,4380,103,super full reverb with mids scooped

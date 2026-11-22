@@ -1,0 +1,15 @@
+(.venv) redrightguy1@redrightguy1-G448:~/Desktop/RTES/beluga$ python cli/main.py tune --file demo_session/track_2.wav
+
+  ≋ demo_session/track_2.wav
+  numpy YIN, 747 analysis frames
+  median pitch  261.65 Hz  =  C4  +0 cents
+  pitched in    388 of 747 frames (52%)
+  most common   C4 100%
+
+(.venv) redrightguy1@redrightguy1-G448:~/Desktop/RTES/beluga$ python cli/main.py tune --file demo_session/track_15.wav
+
+  ≋ demo_session/track_15.wav
+  numpy YIN, 747 analysis frames
+  median pitch  370.02 Hz  =  F#4  +0 cents
+  pitched in    392 of 747 frames (52%)
+  most common   F#4 100%

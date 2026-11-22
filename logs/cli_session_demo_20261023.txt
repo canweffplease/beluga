@@ -1,0 +1,75 @@
+$ python3 cli/main.py info demo_session
+
+  ≋ demo_session
+  120 bpm  ·  16 tracks  ·  48.0 kHz
+  created 2026-10-23T22:22:44-04:00
+  no session.json, showing defaults (older session)
+
+  id  name      gain   mute  length   source
+  1   track 1   1.00   no    16.0 s   -
+  2   track 2   1.00   no    16.0 s   -
+  3   track 3   1.00   no    16.0 s   -
+  4   track 4   1.00   no    16.0 s   -
+  5   track 5   1.00   no    16.0 s   -
+  6   track 6   1.00   no    16.0 s   -
+  7   track 7   1.00   no    16.0 s   -
+  8   track 8   1.00   no    16.0 s   -
+  9   track 9   1.00   no    16.0 s   -
+  10  track 10  1.00   no    16.0 s   -
+  11  track 11  1.00   no    16.0 s   -
+  12  track 12  1.00   no    16.0 s   -
+  13  track 13  1.00   no    16.0 s   -
+  14  track 14  1.00   no    16.0 s   -
+  15  track 15  1.00   no    16.0 s   -
+  16  track 16  1.00   no    16.0 s   -
+
+
+$ python3 cli/main.py mute demo_session 3
+  track 3: muted
+
+$ python3 cli/main.py mute demo_session 3
+  track 3 is already muted
+
+$ python3 cli/main.py gain demo_session 2 0.5
+  track 2: gain 1.00 to 0.50
+
+$ python3 cli/main.py gain demo_session 2 5
+  gain must be between 0.0 and 2.0
+
+$ python3 cli/main.py rename demo_session 1 kick
+  track 1: name 'track 1 to kick'
+
+$ python3 cli/main.py rename demo_session 2 kick
+Error: demo_session/session.json: track names must be unique, 'kick' is used twice
+
+$ python3 cli/main.py bpm demo_session 100
+  bpm 120 to 100
+
+$ python3 cli/main.py info demo_session
+
+  ≋ demo_session
+  100 bpm  ·  16 tracks  ·  48.0 kHz
+  created 2026-10-23T22:22:45-04:00
+
+  id  name      gain   mute  length   source
+  1   kick      1.00   no    16.0 s   -
+  2   track 2   0.50   no    16.0 s   -
+  3   track 3   1.00   yes   16.0 s   -
+  4   track 4   1.00   no    16.0 s   -
+  5   track 5   1.00   no    16.0 s   -
+  6   track 6   1.00   no    16.0 s   -
+  7   track 7   1.00   no    16.0 s   -
+  8   track 8   1.00   no    16.0 s   -
+  9   track 9   1.00   no    16.0 s   -
+  10  track 10  1.00   no    16.0 s   -
+  11  track 11  1.00   no    16.0 s   -
+  12  track 12  1.00   no    16.0 s   -
+  13  track 13  1.00   no    16.0 s   -
+  14  track 14  1.00   no    16.0 s   -
+  15  track 15  1.00   no    16.0 s   -
+  16  track 16  1.00   no    16.0 s   -
+
+
+$ python3 cli/main.py unmute demo_session 3
+  track 3: unmuted
+

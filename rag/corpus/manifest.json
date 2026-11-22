@@ -1,0 +1,53 @@
+{
+  "built": "2026-10-23T17:17:40-04:00",
+  "source_dataset": "seungheondoh/socialfx-original",
+  "license": "not stated on the dataset card, check before redistributing",
+  "library_versions": {
+    "datasets": "5.1.0",
+    "numpy": "2.5.4"
+  },
+  "effects": {
+    "eq": {
+      "rows_in_split": 1595,
+      "rows_used": 302,
+      "words_kept": 13,
+      "label_source": "creator's text",
+      "filters": "lang == English, ratings_consistency >= 0.6, words with >= 5 rows"
+    },
+    "reverb": {
+      "rows_in_split": 6772,
+      "rows_used": 6095,
+      "words_kept": 217,
+      "label_source": "words in the 'agreed' list (other raters), a row counts toward every agreed word",
+      "filters": "words with >= 15 rows",
+      "parameters": [
+        "delay_time",
+        "decay",
+        "stereo_spread",
+        "cutoff_freq",
+        "wet_gain"
+      ]
+    },
+    "comp": {
+      "rows_in_split": 1142,
+      "rows_used": 677,
+      "words_kept": 12,
+      "label_source": "words in the 'agreed' list (other raters), a row counts toward every agreed word",
+      "filters": "words with >= 15 rows",
+      "parameters": [
+        "threshold_db",
+        "ratio",
+        "attack_ms",
+        "release_ms",
+        "knee_db"
+      ]
+    }
+  },
+  "notes": [
+    "reverb: dataset lists 6 keys but every row has 5 values, the 6th (wet_dry) is missing, so only the first 5 keys are used",
+    "comp: release values were multiplied by 1000.0 (stored in seconds, named release_ms)",
+    "eq: units of the band values are not documented, treat them as relative boost/cut",
+    "reverb and comp absolute values are extreme, use the 'relative' fields to guide the LLM",
+    "parameters are SocialFX's own, they still have to be mapped to Pedalboard (see rag/effect_reference.json)"
+  ]
+}
